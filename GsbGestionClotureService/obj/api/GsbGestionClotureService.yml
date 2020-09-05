@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: GsbGestionClotureService
+  commentId: N:GsbGestionClotureService
+  id: GsbGestionClotureService
+  children:
+  - GsbGestionClotureService.DataAccess
+  - GsbGestionClotureService.DateGestion
+  - GsbGestionClotureService.GestionCloture
+  langs:
+  - csharp
+  - vb
+  name: GsbGestionClotureService
+  nameWithType: GsbGestionClotureService
+  fullName: GsbGestionClotureService
+  type: Namespace
+  assemblies:
+  - GsbGestionClotureService
+references:
+- uid: GsbGestionClotureService.DataAccess
+  commentId: T:GsbGestionClotureService.DataAccess
+  name: DataAccess
+  nameWithType: DataAccess
+  fullName: GsbGestionClotureService.DataAccess
+- uid: GsbGestionClotureService.DateGestion
+  commentId: T:GsbGestionClotureService.DateGestion
+  name: DateGestion
+  nameWithType: DateGestion
+  fullName: GsbGestionClotureService.DateGestion
+- uid: GsbGestionClotureService.GestionCloture
+  commentId: T:GsbGestionClotureService.GestionCloture
+  name: GestionCloture
+  nameWithType: GestionCloture
+  fullName: GsbGestionClotureService.GestionCloture

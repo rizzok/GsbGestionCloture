@@ -1,0 +1,21 @@
+{
+  "GsbGestionClotureService": "GsbGestionClotureService.yml",
+  "GsbGestionClotureService.DataAccess": "GsbGestionClotureService.DataAccess.yml",
+  "GsbGestionClotureService.DataAccess.#ctor(System.String,System.String,System.String,System.String)": "GsbGestionClotureService.DataAccess.yml",
+  "GsbGestionClotureService.DataAccess.requestAdmin(System.String)": "GsbGestionClotureService.DataAccess.yml",
+  "GsbGestionClotureService.DataAccess.requestSelect(System.String)": "GsbGestionClotureService.DataAccess.yml",
+  "GsbGestionClotureService.DateGestion": "GsbGestionClotureService.DateGestion.yml",
+  "GsbGestionClotureService.DateGestion.entre(System.Int32,System.Int32)": "GsbGestionClotureService.DateGestion.yml",
+  "GsbGestionClotureService.DateGestion.entre(System.Int32,System.Int32,System.DateTime)": "GsbGestionClotureService.DateGestion.yml",
+  "GsbGestionClotureService.DateGestion.getAnneeDuMoisPrecedent(System.DateTime)": "GsbGestionClotureService.DateGestion.yml",
+  "GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent": "GsbGestionClotureService.DateGestion.yml",
+  "GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent(System.DateTime)": "GsbGestionClotureService.DateGestion.yml",
+  "GsbGestionClotureService.DateGestion.getMoisPrecedent": "GsbGestionClotureService.DateGestion.yml",
+  "GsbGestionClotureService.DateGestion.getMoisPrecedent(System.DateTime)": "GsbGestionClotureService.DateGestion.yml",
+  "GsbGestionClotureService.DateGestion.getMoisSuivant": "GsbGestionClotureService.DateGestion.yml",
+  "GsbGestionClotureService.DateGestion.getMoisSuivant(System.DateTime)": "GsbGestionClotureService.DateGestion.yml",
+  "GsbGestionClotureService.GestionCloture": "GsbGestionClotureService.GestionCloture.yml",
+  "GsbGestionClotureService.GestionCloture.#ctor": "GsbGestionClotureService.GestionCloture.yml",
+  "GsbGestionClotureService.GestionCloture.Start": "GsbGestionClotureService.GestionCloture.yml",
+  "GsbGestionClotureService.GestionCloture.Stop": "GsbGestionClotureService.GestionCloture.yml"
+}

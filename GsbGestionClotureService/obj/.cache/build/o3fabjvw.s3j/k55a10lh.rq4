@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DateGestion
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DateGestion
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GsbGestionClotureService.DateGestion">
+  
+  
+  <h1 id="GsbGestionClotureService_DateGestion" data-uid="GsbGestionClotureService.DateGestion" class="text-break">Class DateGestion
+  </h1>
+  <div class="markdown level0 summary"><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Classe abstraite comportant de méthodes statiques utiles à la gestion des fiches de frais</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DateGestion</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GsbGestionClotureService.html">GsbGestionClotureService</a></h6>
+  <h6><strong>Assembly</strong>: GsbGestionClotureService.dll</h6>
+  <h5 id="GsbGestionClotureService_DateGestion_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class DateGestion</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rizzok/GsbGestionClotureService/new/master/apiSpec/new?filename=GsbGestionClotureService_DateGestion_entre_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20GsbGestionClotureService.DateGestion.entre(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rizzok/GsbGestionClotureService/blob/master/GsbGestionClotureService/DateGestion.cs/#L69">View Source</a>
+  </span>
+  <a id="GsbGestionClotureService_DateGestion_entre_" data-uid="GsbGestionClotureService.DateGestion.entre*"></a>
+  <h4 id="GsbGestionClotureService_DateGestion_entre_System_Int32_System_Int32_" data-uid="GsbGestionClotureService.DateGestion.entre(System.Int32,System.Int32)">entre(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Reçoit 2 numéros de jour dans le mois
+Retourne vrai si la date actuelle se situe entre ces 2 jours</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool entre(int day1, int day2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">day1</span></td>
+        <td><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Premier entier correspondant à un jour dans le mois</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">day2</span></td>
+        <td><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Second entier correspondant à un jour dans le mois</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Vrai si la date actuelle est entre les 2 jours, sinon retour faux</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rizzok/GsbGestionClotureService/new/master/apiSpec/new?filename=GsbGestionClotureService_DateGestion_entre_System_Int32_System_Int32_System_DateTime_.md&amp;value=---%0Auid%3A%20GsbGestionClotureService.DateGestion.entre(System.Int32%2CSystem.Int32%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rizzok/GsbGestionClotureService/blob/master/GsbGestionClotureService/DateGestion.cs/#L82">View Source</a>
+  </span>
+  <a id="GsbGestionClotureService_DateGestion_entre_" data-uid="GsbGestionClotureService.DateGestion.entre*"></a>
+  <h4 id="GsbGestionClotureService_DateGestion_entre_System_Int32_System_Int32_System_DateTime_" data-uid="GsbGestionClotureService.DateGestion.entre(System.Int32,System.Int32,System.DateTime)">entre(Int32, Int32, DateTime)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Reçoit 2 numéros de jour dans le mois
+Retourne vrai si la date actuelle se situe entre ces 2 jours</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool entre(int day1, int day2, DateTime dateTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">day1</span></td>
+        <td><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Premier entier correspondant à un jour dans le mois</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">day2</span></td>
+        <td><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Second entier correspondant à un jour dans le mois</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dateTime</span></td>
+        <td><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Date à vérifier</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Vrai si la date actuelle est entre les 2 jours, sinon retour faux</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rizzok/GsbGestionClotureService/new/master/apiSpec/new?filename=GsbGestionClotureService_DateGestion_getAnneeDuMoisPrecedent_System_DateTime_.md&amp;value=---%0Auid%3A%20GsbGestionClotureService.DateGestion.getAnneeDuMoisPrecedent(System.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rizzok/GsbGestionClotureService/blob/master/GsbGestionClotureService/DateGestion.cs/#L94">View Source</a>
+  </span>
+  <a id="GsbGestionClotureService_DateGestion_getAnneeDuMoisPrecedent_" data-uid="GsbGestionClotureService.DateGestion.getAnneeDuMoisPrecedent*"></a>
+  <h4 id="GsbGestionClotureService_DateGestion_getAnneeDuMoisPrecedent_System_DateTime_" data-uid="GsbGestionClotureService.DateGestion.getAnneeDuMoisPrecedent(System.DateTime)">getAnneeDuMoisPrecedent(DateTime)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Permet de récupérer une date, d&apos;y soustraire un mois
+Et de retourner l&apos;année sous la forme &quot;yyyy&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string getAnneeDuMoisPrecedent(DateTime dateTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dateTime</span></td>
+        <td><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Une date</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Année sous la forme &quot;yyyy&quot;</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rizzok/GsbGestionClotureService/new/master/apiSpec/new?filename=GsbGestionClotureService_DateGestion_getAnneeEtMoisPrecedent.md&amp;value=---%0Auid%3A%20GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rizzok/GsbGestionClotureService/blob/master/GsbGestionClotureService/DateGestion.cs/#L104">View Source</a>
+  </span>
+  <a id="GsbGestionClotureService_DateGestion_getAnneeEtMoisPrecedent_" data-uid="GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent*"></a>
+  <h4 id="GsbGestionClotureService_DateGestion_getAnneeEtMoisPrecedent" data-uid="GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent">getAnneeEtMoisPrecedent()</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Récupère le mois précédent et l&apos;année associée sous la forme &quot;yyyyMM&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string getAnneeEtMoisPrecedent()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="1" sourceendlinenumber="1">mois précédent et l&apos;année associée sous la forme &quot;yyyyMM&quot;</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rizzok/GsbGestionClotureService/new/master/apiSpec/new?filename=GsbGestionClotureService_DateGestion_getAnneeEtMoisPrecedent_System_DateTime_.md&amp;value=---%0Auid%3A%20GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent(System.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rizzok/GsbGestionClotureService/blob/master/GsbGestionClotureService/DateGestion.cs/#L114">View Source</a>
+  </span>
+  <a id="GsbGestionClotureService_DateGestion_getAnneeEtMoisPrecedent_" data-uid="GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent*"></a>
+  <h4 id="GsbGestionClotureService_DateGestion_getAnneeEtMoisPrecedent_System_DateTime_" data-uid="GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent(System.DateTime)">getAnneeEtMoisPrecedent(DateTime)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Récupère le mois précédent et l&apos;année associée sous la forme &quot;yyyyMM&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string getAnneeEtMoisPrecedent(DateTime dateTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="1" sourceendlinenumber="1">mois précédent et l&apos;année associée sous la forme &quot;yyyyMM&quot;</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rizzok/GsbGestionClotureService/new/master/apiSpec/new?filename=GsbGestionClotureService_DateGestion_getMoisPrecedent.md&amp;value=---%0Auid%3A%20GsbGestionClotureService.DateGestion.getMoisPrecedent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rizzok/GsbGestionClotureService/blob/master/GsbGestionClotureService/DateGestion.cs/#L28">View Source</a>
+  </span>
+  <a id="GsbGestionClotureService_DateGestion_getMoisPrecedent_" data-uid="GsbGestionClotureService.DateGestion.getMoisPrecedent*"></a>
+  <h4 id="GsbGestionClotureService_DateGestion_getMoisPrecedent" data-uid="GsbGestionClotureService.DateGestion.getMoisPrecedent">getMoisPrecedent()</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Permet d&apos;obtenir le mois précédent par rapport à aujourd&apos;hui</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string getMoisPrecedent()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Chaîne de caractères contenant le mois précédent au format &quot;MM&quot;</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rizzok/GsbGestionClotureService/new/master/apiSpec/new?filename=GsbGestionClotureService_DateGestion_getMoisPrecedent_System_DateTime_.md&amp;value=---%0Auid%3A%20GsbGestionClotureService.DateGestion.getMoisPrecedent(System.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rizzok/GsbGestionClotureService/blob/master/GsbGestionClotureService/DateGestion.cs/#L38">View Source</a>
+  </span>
+  <a id="GsbGestionClotureService_DateGestion_getMoisPrecedent_" data-uid="GsbGestionClotureService.DateGestion.getMoisPrecedent*"></a>
+  <h4 id="GsbGestionClotureService_DateGestion_getMoisPrecedent_System_DateTime_" data-uid="GsbGestionClotureService.DateGestion.getMoisPrecedent(System.DateTime)">getMoisPrecedent(DateTime)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Permet d&apos;obtenir le mois précédent par rapport à la date passée en paramètre</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string getMoisPrecedent(DateTime dateTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Chaîne de caractères contenant le mois précédent au format &quot;MM&quot;</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rizzok/GsbGestionClotureService/new/master/apiSpec/new?filename=GsbGestionClotureService_DateGestion_getMoisSuivant.md&amp;value=---%0Auid%3A%20GsbGestionClotureService.DateGestion.getMoisSuivant%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rizzok/GsbGestionClotureService/blob/master/GsbGestionClotureService/DateGestion.cs/#L47">View Source</a>
+  </span>
+  <a id="GsbGestionClotureService_DateGestion_getMoisSuivant_" data-uid="GsbGestionClotureService.DateGestion.getMoisSuivant*"></a>
+  <h4 id="GsbGestionClotureService_DateGestion_getMoisSuivant" data-uid="GsbGestionClotureService.DateGestion.getMoisSuivant">getMoisSuivant()</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Permet d&apos;obtenir le mois suivant par rapport à aujourd&apos;hui</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string getMoisSuivant()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Chaîne de caractères contenant le mois suivant au format &quot;MM&quot;</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/rizzok/GsbGestionClotureService/new/master/apiSpec/new?filename=GsbGestionClotureService_DateGestion_getMoisSuivant_System_DateTime_.md&amp;value=---%0Auid%3A%20GsbGestionClotureService.DateGestion.getMoisSuivant(System.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/rizzok/GsbGestionClotureService/blob/master/GsbGestionClotureService/DateGestion.cs/#L57">View Source</a>
+  </span>
+  <a id="GsbGestionClotureService_DateGestion_getMoisSuivant_" data-uid="GsbGestionClotureService.DateGestion.getMoisSuivant*"></a>
+  <h4 id="GsbGestionClotureService_DateGestion_getMoisSuivant_System_DateTime_" data-uid="GsbGestionClotureService.DateGestion.getMoisSuivant(System.DateTime)">getMoisSuivant(DateTime)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Permet d&apos;obtenir le mois suivant par rapport à la date passée en paramètre</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string getMoisSuivant(DateTime dateTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p sourcefile="obj/api/GsbGestionClotureService.DateGestion.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Chaîne de caractères contenant le mois suivant au format &quot;MM&quot;</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/rizzok/GsbGestionClotureService/new/master/apiSpec/new?filename=GsbGestionClotureService_DateGestion.md&amp;value=---%0Auid%3A%20GsbGestionClotureService.DateGestion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/rizzok/GsbGestionClotureService/blob/master/GsbGestionClotureService/DateGestion.cs/#L8" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

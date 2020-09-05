@@ -1,0 +1,774 @@
+### YamlMime:ManagedReference
+items:
+- uid: GsbGestionClotureService.DateGestion
+  commentId: T:GsbGestionClotureService.DateGestion
+  id: DateGestion
+  parent: GsbGestionClotureService
+  children:
+  - GsbGestionClotureService.DateGestion.entre(System.Int32,System.Int32)
+  - GsbGestionClotureService.DateGestion.entre(System.Int32,System.Int32,System.DateTime)
+  - GsbGestionClotureService.DateGestion.getAnneeDuMoisPrecedent(System.DateTime)
+  - GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent
+  - GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent(System.DateTime)
+  - GsbGestionClotureService.DateGestion.getMoisPrecedent
+  - GsbGestionClotureService.DateGestion.getMoisPrecedent(System.DateTime)
+  - GsbGestionClotureService.DateGestion.getMoisSuivant
+  - GsbGestionClotureService.DateGestion.getMoisSuivant(System.DateTime)
+  langs:
+  - csharp
+  - vb
+  name: DateGestion
+  nameWithType: DateGestion
+  fullName: GsbGestionClotureService.DateGestion
+  type: Class
+  source:
+    remote:
+      path: GsbGestionClotureService/DateGestion.cs
+      branch: master
+      repo: https://github.com/rizzok/GsbGestionClotureService.git
+    id: DateGestion
+    path: DateGestion.cs
+    startLine: 7
+  assemblies:
+  - GsbGestionClotureService
+  namespace: GsbGestionClotureService
+  summary: "\nClasse abstraite comportant de méthodes statiques utiles à la gestion des fiches de frais\n"
+  example: []
+  syntax:
+    content: public abstract class DateGestion
+    content.vb: Public MustInherit Class DateGestion
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: GsbGestionClotureService.DateGestion.getMoisPrecedent
+  commentId: M:GsbGestionClotureService.DateGestion.getMoisPrecedent
+  id: getMoisPrecedent
+  parent: GsbGestionClotureService.DateGestion
+  langs:
+  - csharp
+  - vb
+  name: getMoisPrecedent()
+  nameWithType: DateGestion.getMoisPrecedent()
+  fullName: GsbGestionClotureService.DateGestion.getMoisPrecedent()
+  type: Method
+  source:
+    remote:
+      path: GsbGestionClotureService/DateGestion.cs
+      branch: master
+      repo: https://github.com/rizzok/GsbGestionClotureService.git
+    id: getMoisPrecedent
+    path: DateGestion.cs
+    startLine: 27
+  assemblies:
+  - GsbGestionClotureService
+  namespace: GsbGestionClotureService
+  summary: "\nPermet d&apos;obtenir le mois précédent par rapport à aujourd&apos;hui\n"
+  example: []
+  syntax:
+    content: public static string getMoisPrecedent()
+    return:
+      type: System.String
+      description: Chaîne de caractères contenant le mois précédent au format &quot;MM&quot;
+    content.vb: Public Shared Function getMoisPrecedent As String
+  overload: GsbGestionClotureService.DateGestion.getMoisPrecedent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GsbGestionClotureService.DateGestion.getMoisPrecedent(System.DateTime)
+  commentId: M:GsbGestionClotureService.DateGestion.getMoisPrecedent(System.DateTime)
+  id: getMoisPrecedent(System.DateTime)
+  parent: GsbGestionClotureService.DateGestion
+  langs:
+  - csharp
+  - vb
+  name: getMoisPrecedent(DateTime)
+  nameWithType: DateGestion.getMoisPrecedent(DateTime)
+  fullName: GsbGestionClotureService.DateGestion.getMoisPrecedent(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: GsbGestionClotureService/DateGestion.cs
+      branch: master
+      repo: https://github.com/rizzok/GsbGestionClotureService.git
+    id: getMoisPrecedent
+    path: DateGestion.cs
+    startLine: 37
+  assemblies:
+  - GsbGestionClotureService
+  namespace: GsbGestionClotureService
+  summary: "\nPermet d&apos;obtenir le mois précédent par rapport à la date passée en paramètre\n"
+  example: []
+  syntax:
+    content: public static string getMoisPrecedent(DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: ''
+    return:
+      type: System.String
+      description: Chaîne de caractères contenant le mois précédent au format &quot;MM&quot;
+    content.vb: Public Shared Function getMoisPrecedent(dateTime As Date) As String
+  overload: GsbGestionClotureService.DateGestion.getMoisPrecedent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GsbGestionClotureService.DateGestion.getMoisSuivant
+  commentId: M:GsbGestionClotureService.DateGestion.getMoisSuivant
+  id: getMoisSuivant
+  parent: GsbGestionClotureService.DateGestion
+  langs:
+  - csharp
+  - vb
+  name: getMoisSuivant()
+  nameWithType: DateGestion.getMoisSuivant()
+  fullName: GsbGestionClotureService.DateGestion.getMoisSuivant()
+  type: Method
+  source:
+    remote:
+      path: GsbGestionClotureService/DateGestion.cs
+      branch: master
+      repo: https://github.com/rizzok/GsbGestionClotureService.git
+    id: getMoisSuivant
+    path: DateGestion.cs
+    startLine: 46
+  assemblies:
+  - GsbGestionClotureService
+  namespace: GsbGestionClotureService
+  summary: "\nPermet d&apos;obtenir le mois suivant par rapport à aujourd&apos;hui\n"
+  example: []
+  syntax:
+    content: public static string getMoisSuivant()
+    return:
+      type: System.String
+      description: Chaîne de caractères contenant le mois suivant au format &quot;MM&quot;
+    content.vb: Public Shared Function getMoisSuivant As String
+  overload: GsbGestionClotureService.DateGestion.getMoisSuivant*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GsbGestionClotureService.DateGestion.getMoisSuivant(System.DateTime)
+  commentId: M:GsbGestionClotureService.DateGestion.getMoisSuivant(System.DateTime)
+  id: getMoisSuivant(System.DateTime)
+  parent: GsbGestionClotureService.DateGestion
+  langs:
+  - csharp
+  - vb
+  name: getMoisSuivant(DateTime)
+  nameWithType: DateGestion.getMoisSuivant(DateTime)
+  fullName: GsbGestionClotureService.DateGestion.getMoisSuivant(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: GsbGestionClotureService/DateGestion.cs
+      branch: master
+      repo: https://github.com/rizzok/GsbGestionClotureService.git
+    id: getMoisSuivant
+    path: DateGestion.cs
+    startLine: 56
+  assemblies:
+  - GsbGestionClotureService
+  namespace: GsbGestionClotureService
+  summary: "\nPermet d&apos;obtenir le mois suivant par rapport à la date passée en paramètre\n"
+  example: []
+  syntax:
+    content: public static string getMoisSuivant(DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: ''
+    return:
+      type: System.String
+      description: Chaîne de caractères contenant le mois suivant au format &quot;MM&quot;
+    content.vb: Public Shared Function getMoisSuivant(dateTime As Date) As String
+  overload: GsbGestionClotureService.DateGestion.getMoisSuivant*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GsbGestionClotureService.DateGestion.entre(System.Int32,System.Int32)
+  commentId: M:GsbGestionClotureService.DateGestion.entre(System.Int32,System.Int32)
+  id: entre(System.Int32,System.Int32)
+  parent: GsbGestionClotureService.DateGestion
+  langs:
+  - csharp
+  - vb
+  name: entre(Int32, Int32)
+  nameWithType: DateGestion.entre(Int32, Int32)
+  fullName: GsbGestionClotureService.DateGestion.entre(System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: GsbGestionClotureService/DateGestion.cs
+      branch: master
+      repo: https://github.com/rizzok/GsbGestionClotureService.git
+    id: entre
+    path: DateGestion.cs
+    startLine: 68
+  assemblies:
+  - GsbGestionClotureService
+  namespace: GsbGestionClotureService
+  summary: "\nReçoit 2 numéros de jour dans le mois\nRetourne vrai si la date actuelle se situe entre ces 2 jours\n"
+  example: []
+  syntax:
+    content: public static bool entre(int day1, int day2)
+    parameters:
+    - id: day1
+      type: System.Int32
+      description: Premier entier correspondant à un jour dans le mois
+    - id: day2
+      type: System.Int32
+      description: Second entier correspondant à un jour dans le mois
+    return:
+      type: System.Boolean
+      description: Vrai si la date actuelle est entre les 2 jours, sinon retour faux
+    content.vb: Public Shared Function entre(day1 As Integer, day2 As Integer) As Boolean
+  overload: GsbGestionClotureService.DateGestion.entre*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GsbGestionClotureService.DateGestion.entre(System.Int32,System.Int32,System.DateTime)
+  commentId: M:GsbGestionClotureService.DateGestion.entre(System.Int32,System.Int32,System.DateTime)
+  id: entre(System.Int32,System.Int32,System.DateTime)
+  parent: GsbGestionClotureService.DateGestion
+  langs:
+  - csharp
+  - vb
+  name: entre(Int32, Int32, DateTime)
+  nameWithType: DateGestion.entre(Int32, Int32, DateTime)
+  fullName: GsbGestionClotureService.DateGestion.entre(System.Int32, System.Int32, System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: GsbGestionClotureService/DateGestion.cs
+      branch: master
+      repo: https://github.com/rizzok/GsbGestionClotureService.git
+    id: entre
+    path: DateGestion.cs
+    startLine: 81
+  assemblies:
+  - GsbGestionClotureService
+  namespace: GsbGestionClotureService
+  summary: "\nReçoit 2 numéros de jour dans le mois\nRetourne vrai si la date actuelle se situe entre ces 2 jours\n"
+  example: []
+  syntax:
+    content: public static bool entre(int day1, int day2, DateTime dateTime)
+    parameters:
+    - id: day1
+      type: System.Int32
+      description: Premier entier correspondant à un jour dans le mois
+    - id: day2
+      type: System.Int32
+      description: Second entier correspondant à un jour dans le mois
+    - id: dateTime
+      type: System.DateTime
+      description: Date à vérifier
+    return:
+      type: System.Boolean
+      description: Vrai si la date actuelle est entre les 2 jours, sinon retour faux
+    content.vb: Public Shared Function entre(day1 As Integer, day2 As Integer, dateTime As Date) As Boolean
+  overload: GsbGestionClotureService.DateGestion.entre*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GsbGestionClotureService.DateGestion.getAnneeDuMoisPrecedent(System.DateTime)
+  commentId: M:GsbGestionClotureService.DateGestion.getAnneeDuMoisPrecedent(System.DateTime)
+  id: getAnneeDuMoisPrecedent(System.DateTime)
+  parent: GsbGestionClotureService.DateGestion
+  langs:
+  - csharp
+  - vb
+  name: getAnneeDuMoisPrecedent(DateTime)
+  nameWithType: DateGestion.getAnneeDuMoisPrecedent(DateTime)
+  fullName: GsbGestionClotureService.DateGestion.getAnneeDuMoisPrecedent(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: GsbGestionClotureService/DateGestion.cs
+      branch: master
+      repo: https://github.com/rizzok/GsbGestionClotureService.git
+    id: getAnneeDuMoisPrecedent
+    path: DateGestion.cs
+    startLine: 93
+  assemblies:
+  - GsbGestionClotureService
+  namespace: GsbGestionClotureService
+  summary: "\nPermet de récupérer une date, d&apos;y soustraire un mois\nEt de retourner l&apos;année sous la forme &quot;yyyy&quot;\n"
+  example: []
+  syntax:
+    content: public static string getAnneeDuMoisPrecedent(DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: Une date
+    return:
+      type: System.String
+      description: Année sous la forme &quot;yyyy&quot;
+    content.vb: Public Shared Function getAnneeDuMoisPrecedent(dateTime As Date) As String
+  overload: GsbGestionClotureService.DateGestion.getAnneeDuMoisPrecedent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent
+  commentId: M:GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent
+  id: getAnneeEtMoisPrecedent
+  parent: GsbGestionClotureService.DateGestion
+  langs:
+  - csharp
+  - vb
+  name: getAnneeEtMoisPrecedent()
+  nameWithType: DateGestion.getAnneeEtMoisPrecedent()
+  fullName: GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent()
+  type: Method
+  source:
+    remote:
+      path: GsbGestionClotureService/DateGestion.cs
+      branch: master
+      repo: https://github.com/rizzok/GsbGestionClotureService.git
+    id: getAnneeEtMoisPrecedent
+    path: DateGestion.cs
+    startLine: 103
+  assemblies:
+  - GsbGestionClotureService
+  namespace: GsbGestionClotureService
+  summary: "\nRécupère le mois précédent et l&apos;année associée sous la forme &quot;yyyyMM&quot;\n"
+  example: []
+  syntax:
+    content: public static string getAnneeEtMoisPrecedent()
+    return:
+      type: System.String
+      description: mois précédent et l&apos;année associée sous la forme &quot;yyyyMM&quot;
+    content.vb: Public Shared Function getAnneeEtMoisPrecedent As String
+  overload: GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent(System.DateTime)
+  commentId: M:GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent(System.DateTime)
+  id: getAnneeEtMoisPrecedent(System.DateTime)
+  parent: GsbGestionClotureService.DateGestion
+  langs:
+  - csharp
+  - vb
+  name: getAnneeEtMoisPrecedent(DateTime)
+  nameWithType: DateGestion.getAnneeEtMoisPrecedent(DateTime)
+  fullName: GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: GsbGestionClotureService/DateGestion.cs
+      branch: master
+      repo: https://github.com/rizzok/GsbGestionClotureService.git
+    id: getAnneeEtMoisPrecedent
+    path: DateGestion.cs
+    startLine: 113
+  assemblies:
+  - GsbGestionClotureService
+  namespace: GsbGestionClotureService
+  summary: "\nRécupère le mois précédent et l&apos;année associée sous la forme &quot;yyyyMM&quot;\n"
+  example: []
+  syntax:
+    content: public static string getAnneeEtMoisPrecedent(DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+      description: ''
+    return:
+      type: System.String
+      description: mois précédent et l&apos;année associée sous la forme &quot;yyyyMM&quot;
+    content.vb: Public Shared Function getAnneeEtMoisPrecedent(dateTime As Date) As String
+  overload: GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: GsbGestionClotureService
+  commentId: N:GsbGestionClotureService
+  name: GsbGestionClotureService
+  nameWithType: GsbGestionClotureService
+  fullName: GsbGestionClotureService
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GsbGestionClotureService.DateGestion.getMoisPrecedent*
+  commentId: Overload:GsbGestionClotureService.DateGestion.getMoisPrecedent
+  name: getMoisPrecedent
+  nameWithType: DateGestion.getMoisPrecedent
+  fullName: GsbGestionClotureService.DateGestion.getMoisPrecedent
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: GsbGestionClotureService.DateGestion.getMoisSuivant*
+  commentId: Overload:GsbGestionClotureService.DateGestion.getMoisSuivant
+  name: getMoisSuivant
+  nameWithType: DateGestion.getMoisSuivant
+  fullName: GsbGestionClotureService.DateGestion.getMoisSuivant
+- uid: GsbGestionClotureService.DateGestion.entre*
+  commentId: Overload:GsbGestionClotureService.DateGestion.entre
+  name: entre
+  nameWithType: DateGestion.entre
+  fullName: GsbGestionClotureService.DateGestion.entre
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GsbGestionClotureService.DateGestion.getAnneeDuMoisPrecedent*
+  commentId: Overload:GsbGestionClotureService.DateGestion.getAnneeDuMoisPrecedent
+  name: getAnneeDuMoisPrecedent
+  nameWithType: DateGestion.getAnneeDuMoisPrecedent
+  fullName: GsbGestionClotureService.DateGestion.getAnneeDuMoisPrecedent
+- uid: GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent*
+  commentId: Overload:GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent
+  name: getAnneeEtMoisPrecedent
+  nameWithType: DateGestion.getAnneeEtMoisPrecedent
+  fullName: GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent

@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GsbGestionClotureService</name>
+    </assembly>
+    <members>
+        <member name="T:GsbGestionClotureService.DataAccess">
+            <summary>
+            Accès aux données
+            Connexion à la base MySQL, exécution de requêtes, gestion du curseur
+            </summary>
+        </member>
+        <member name="M:GsbGestionClotureService.DataAccess.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            Constructeur
+            Initialise la connexion à la base de données
+            </summary>
+            <param name="database">Nom de la base de données</param>
+            <param name="server">Nom du serveur</param>
+            <param name="userid">Identifiant de l'utilisateur</param>
+            <param name="password">Mot de passe</param>
+        </member>
+        <member name="M:GsbGestionClotureService.DataAccess.requestAdmin(System.String)">
+            <summary>
+            Execution d'une requête de type INSERT, UPDATE ou DELETE
+            </summary>
+            <param name="request">Requête SQL</param>
+        </member>
+        <member name="M:GsbGestionClotureService.DataAccess.requestSelect(System.String)">
+            <summary>
+            Execution d'une requête d'interrogation de données
+            </summary>
+            <param name="request">Requête SQL</param>
+            <returns>MySqlDataReader</returns>
+        </member>
+        <member name="T:GsbGestionClotureService.DateGestion">
+            <summary>
+            Classe abstraite comportant de méthodes statiques utiles à la gestion des fiches de frais
+            </summary>
+        </member>
+        <member name="M:GsbGestionClotureService.DateGestion.calculDate(System.DateTime,System.Int32)">
+            <summary>
+            Calcule la date par rapport à l'objet DateTime et le nombre passés en paramètre
+            Puis formate sous la forme "MM"
+            </summary>
+            <param name="dateTime">Objet de type DateTime</param>
+            <param name="number">Nombre entier</param>
+            <returns>Une chaîne de caractères représentant un mois sous la forme "MM"</returns>
+        </member>
+        <member name="M:GsbGestionClotureService.DateGestion.getMoisPrecedent">
+            <summary>
+            Permet d'obtenir le mois précédent par rapport à aujourd'hui
+            </summary>
+            <returns>Chaîne de caractères contenant le mois précédent au format "MM"</returns>
+        </member>
+        <member name="M:GsbGestionClotureService.DateGestion.getMoisPrecedent(System.DateTime)">
+            <summary>
+            Permet d'obtenir le mois précédent par rapport à la date passée en paramètre
+            </summary>
+            <param name="dateTime"></param>
+            <returns>Chaîne de caractères contenant le mois précédent au format "MM"</returns>
+        </member>
+        <member name="M:GsbGestionClotureService.DateGestion.getMoisSuivant">
+            <summary>
+            Permet d'obtenir le mois suivant par rapport à aujourd'hui
+            </summary>
+            <returns>Chaîne de caractères contenant le mois suivant au format "MM"</returns>
+        </member>
+        <member name="M:GsbGestionClotureService.DateGestion.getMoisSuivant(System.DateTime)">
+            <summary>
+            Permet d'obtenir le mois suivant par rapport à la date passée en paramètre
+            </summary>
+            <param name="dateTime"></param>
+            <returns>Chaîne de caractères contenant le mois suivant au format "MM"</returns>
+        </member>
+        <member name="M:GsbGestionClotureService.DateGestion.entre(System.Int32,System.Int32)">
+            <summary>
+            Reçoit 2 numéros de jour dans le mois
+            Retourne vrai si la date actuelle se situe entre ces 2 jours
+            </summary>
+            <param name="day1">Premier entier correspondant à un jour dans le mois</param>
+            <param name="day2">Second entier correspondant à un jour dans le mois</param>
+            <returns>Vrai si la date actuelle est entre les 2 jours, sinon retour faux</returns>
+        </member>
+        <member name="M:GsbGestionClotureService.DateGestion.entre(System.Int32,System.Int32,System.DateTime)">
+            <summary>
+            Reçoit 2 numéros de jour dans le mois
+            Retourne vrai si la date actuelle se situe entre ces 2 jours
+            </summary>
+            <param name="day1">Premier entier correspondant à un jour dans le mois</param>
+            <param name="day2">Second entier correspondant à un jour dans le mois</param>
+            <param name="dateTime">Date à vérifier</param>
+            <returns>Vrai si la date actuelle est entre les 2 jours, sinon retour faux</returns>
+        </member>
+        <member name="M:GsbGestionClotureService.DateGestion.getAnneeDuMoisPrecedent(System.DateTime)">
+            <summary>
+            Permet de récupérer une date, d'y soustraire un mois
+            Et de retourner l'année sous la forme "yyyy"
+            </summary>
+            <param name="dateTime">Une date</param>
+            <returns>Année sous la forme "yyyy"</returns>
+        </member>
+        <member name="M:GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent">
+            <summary>
+            Récupère le mois précédent et l'année associée sous la forme "yyyyMM"
+            </summary>
+            <returns>mois précédent et l'année associée sous la forme "yyyyMM"</returns>
+        </member>
+        <member name="M:GsbGestionClotureService.DateGestion.getAnneeEtMoisPrecedent(System.DateTime)">
+            <summary>
+            Récupère le mois précédent et l'année associée sous la forme "yyyyMM"
+            </summary>
+            <param name="dateTime"></param>
+            <returns>mois précédent et l'année associée sous la forme "yyyyMM"</returns>
+        </member>
+        <member name="T:GsbGestionClotureService.GestionCloture">
+            <summary>
+            Implémente un objet de type Timer permettant de lancer les requêtes SQL mettan à jour la base de données
+            Sert d'intermédiaire entre les classes d'accès aux données (DataAccess) / de gestion des dates (DateGestion) 
+            et le Main (fonction principale du programme)
+            </summary>
+        </member>
+        <member name="M:GsbGestionClotureService.GestionCloture.#ctor">
+            <summary>
+            Constructeur
+            Lance la méthode TimerElapsed à chaque fois que le nombre de milisecondes 
+            défini à l'instanciation de l'objet Timer est atteint, ici toutes les heures
+            </summary>
+        </member>
+        <member name="M:GsbGestionClotureService.GestionCloture.TimerElapsed(System.Object,System.Timers.ElapsedEventArgs)">
+            <summary>
+            Se connecte à la base de données et envoie une requête SQL si une condition est respectée
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:GsbGestionClotureService.GestionCloture.Start">
+            <summary>
+            Lance le Timer
+            </summary>
+        </member>
+        <member name="M:GsbGestionClotureService.GestionCloture.Stop">
+            <summary>
+            Arrête le Timer
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,502 @@
+### YamlMime:ManagedReference
+items:
+- uid: GsbGestionClotureService.DataAccess
+  commentId: T:GsbGestionClotureService.DataAccess
+  id: DataAccess
+  parent: GsbGestionClotureService
+  children:
+  - GsbGestionClotureService.DataAccess.#ctor(System.String,System.String,System.String,System.String)
+  - GsbGestionClotureService.DataAccess.requestAdmin(System.String)
+  - GsbGestionClotureService.DataAccess.requestSelect(System.String)
+  langs:
+  - csharp
+  - vb
+  name: DataAccess
+  nameWithType: DataAccess
+  fullName: GsbGestionClotureService.DataAccess
+  type: Class
+  source:
+    remote:
+      path: GsbGestionClotureService/DataAccess.cs
+      branch: master
+      repo: https://github.com/rizzok/GsbGestionClotureService.git
+    id: DataAccess
+    path: DataAccess.cs
+    startLine: 8
+  assemblies:
+  - GsbGestionClotureService
+  namespace: GsbGestionClotureService
+  summary: "\nAccès aux données\nConnexion à la base MySQL, exécution de requêtes, gestion du curseur\n"
+  example: []
+  syntax:
+    content: public class DataAccess
+    content.vb: Public Class DataAccess
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: GsbGestionClotureService.DataAccess.#ctor(System.String,System.String,System.String,System.String)
+  commentId: M:GsbGestionClotureService.DataAccess.#ctor(System.String,System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String,System.String)'
+  parent: GsbGestionClotureService.DataAccess
+  langs:
+  - csharp
+  - vb
+  name: DataAccess(String, String, String, String)
+  nameWithType: DataAccess.DataAccess(String, String, String, String)
+  fullName: GsbGestionClotureService.DataAccess.DataAccess(System.String, System.String, System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: GsbGestionClotureService/DataAccess.cs
+      branch: master
+      repo: https://github.com/rizzok/GsbGestionClotureService.git
+    id: .ctor
+    path: DataAccess.cs
+    startLine: 20
+  assemblies:
+  - GsbGestionClotureService
+  namespace: GsbGestionClotureService
+  summary: "\nConstructeur\nInitialise la connexion à la base de données\n"
+  example: []
+  syntax:
+    content: public DataAccess(string database, string server, string userid, string password)
+    parameters:
+    - id: database
+      type: System.String
+      description: Nom de la base de données
+    - id: server
+      type: System.String
+      description: Nom du serveur
+    - id: userid
+      type: System.String
+      description: Identifiant de l&apos;utilisateur
+    - id: password
+      type: System.String
+      description: Mot de passe
+    content.vb: Public Sub New(database As String, server As String, userid As String, password As String)
+  overload: GsbGestionClotureService.DataAccess.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GsbGestionClotureService.DataAccess.requestAdmin(System.String)
+  commentId: M:GsbGestionClotureService.DataAccess.requestAdmin(System.String)
+  id: requestAdmin(System.String)
+  parent: GsbGestionClotureService.DataAccess
+  langs:
+  - csharp
+  - vb
+  name: requestAdmin(String)
+  nameWithType: DataAccess.requestAdmin(String)
+  fullName: GsbGestionClotureService.DataAccess.requestAdmin(System.String)
+  type: Method
+  source:
+    remote:
+      path: GsbGestionClotureService/DataAccess.cs
+      branch: master
+      repo: https://github.com/rizzok/GsbGestionClotureService.git
+    id: requestAdmin
+    path: DataAccess.cs
+    startLine: 34
+  assemblies:
+  - GsbGestionClotureService
+  namespace: GsbGestionClotureService
+  summary: "\nExecution d&apos;une requête de type INSERT, UPDATE ou DELETE\n"
+  example: []
+  syntax:
+    content: public void requestAdmin(string request)
+    parameters:
+    - id: request
+      type: System.String
+      description: Requête SQL
+    content.vb: Public Sub requestAdmin(request As String)
+  overload: GsbGestionClotureService.DataAccess.requestAdmin*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GsbGestionClotureService.DataAccess.requestSelect(System.String)
+  commentId: M:GsbGestionClotureService.DataAccess.requestSelect(System.String)
+  id: requestSelect(System.String)
+  parent: GsbGestionClotureService.DataAccess
+  langs:
+  - csharp
+  - vb
+  name: requestSelect(String)
+  nameWithType: DataAccess.requestSelect(String)
+  fullName: GsbGestionClotureService.DataAccess.requestSelect(System.String)
+  type: Method
+  source:
+    remote:
+      path: GsbGestionClotureService/DataAccess.cs
+      branch: master
+      repo: https://github.com/rizzok/GsbGestionClotureService.git
+    id: requestSelect
+    path: DataAccess.cs
+    startLine: 47
+  assemblies:
+  - GsbGestionClotureService
+  namespace: GsbGestionClotureService
+  summary: "\nExecution d&apos;une requête d&apos;interrogation de données\n"
+  example: []
+  syntax:
+    content: public MySqlDataReader requestSelect(string request)
+    parameters:
+    - id: request
+      type: System.String
+      description: Requête SQL
+    return:
+      type: MySql.Data.MySqlClient.MySqlDataReader
+      description: MySqlDataReader
+    content.vb: Public Function requestSelect(request As String) As MySqlDataReader
+  overload: GsbGestionClotureService.DataAccess.requestSelect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GsbGestionClotureService
+  commentId: N:GsbGestionClotureService
+  name: GsbGestionClotureService
+  nameWithType: GsbGestionClotureService
+  fullName: GsbGestionClotureService
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GsbGestionClotureService.DataAccess.#ctor*
+  commentId: Overload:GsbGestionClotureService.DataAccess.#ctor
+  name: DataAccess
+  nameWithType: DataAccess.DataAccess
+  fullName: GsbGestionClotureService.DataAccess.DataAccess
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GsbGestionClotureService.DataAccess.requestAdmin*
+  commentId: Overload:GsbGestionClotureService.DataAccess.requestAdmin
+  name: requestAdmin
+  nameWithType: DataAccess.requestAdmin
+  fullName: GsbGestionClotureService.DataAccess.requestAdmin
+- uid: GsbGestionClotureService.DataAccess.requestSelect*
+  commentId: Overload:GsbGestionClotureService.DataAccess.requestSelect
+  name: requestSelect
+  nameWithType: DataAccess.requestSelect
+  fullName: GsbGestionClotureService.DataAccess.requestSelect
+- uid: MySql.Data.MySqlClient.MySqlDataReader
+  commentId: T:MySql.Data.MySqlClient.MySqlDataReader
+  parent: MySql.Data.MySqlClient
+  isExternal: true
+  name: MySqlDataReader
+  nameWithType: MySqlDataReader
+  fullName: MySql.Data.MySqlClient.MySqlDataReader
+- uid: MySql.Data.MySqlClient
+  commentId: N:MySql.Data.MySqlClient
+  isExternal: true
+  name: MySql.Data.MySqlClient
+  nameWithType: MySql.Data.MySqlClient
+  fullName: MySql.Data.MySqlClient

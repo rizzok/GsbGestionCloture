@@ -1,0 +1,458 @@
+### YamlMime:ManagedReference
+items:
+- uid: GsbGestionClotureService.GestionCloture
+  commentId: T:GsbGestionClotureService.GestionCloture
+  id: GestionCloture
+  parent: GsbGestionClotureService
+  children:
+  - GsbGestionClotureService.GestionCloture.#ctor
+  - GsbGestionClotureService.GestionCloture.Start
+  - GsbGestionClotureService.GestionCloture.Stop
+  langs:
+  - csharp
+  - vb
+  name: GestionCloture
+  nameWithType: GestionCloture
+  fullName: GsbGestionClotureService.GestionCloture
+  type: Class
+  source:
+    remote:
+      path: GsbGestionClotureService/GestionCloture.cs
+      branch: master
+      repo: https://github.com/rizzok/GsbGestionClotureService.git
+    id: GestionCloture
+    path: GestionCloture.cs
+    startLine: 9
+  assemblies:
+  - GsbGestionClotureService
+  namespace: GsbGestionClotureService
+  summary: "\nImplémente un objet de type Timer permettant de lancer les requêtes SQL mettan à jour la base de données\nSert d&apos;intermédiaire entre les classes d&apos;accès aux données (DataAccess) / de gestion des dates (DateGestion) \net le Main (fonction principale du programme)\n"
+  example: []
+  syntax:
+    content: public class GestionCloture
+    content.vb: Public Class GestionCloture
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: GsbGestionClotureService.GestionCloture.#ctor
+  commentId: M:GsbGestionClotureService.GestionCloture.#ctor
+  id: '#ctor'
+  parent: GsbGestionClotureService.GestionCloture
+  langs:
+  - csharp
+  - vb
+  name: GestionCloture()
+  nameWithType: GestionCloture.GestionCloture()
+  fullName: GsbGestionClotureService.GestionCloture.GestionCloture()
+  type: Constructor
+  source:
+    remote:
+      path: GsbGestionClotureService/GestionCloture.cs
+      branch: master
+      repo: https://github.com/rizzok/GsbGestionClotureService.git
+    id: .ctor
+    path: GestionCloture.cs
+    startLine: 18
+  assemblies:
+  - GsbGestionClotureService
+  namespace: GsbGestionClotureService
+  summary: "\nConstructeur\nLance la méthode TimerElapsed à chaque fois que le nombre de milisecondes \ndéfini à l&apos;instanciation de l&apos;objet Timer est atteint, ici toutes les heures\n"
+  example: []
+  syntax:
+    content: public GestionCloture()
+    content.vb: Public Sub New
+  overload: GsbGestionClotureService.GestionCloture.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GsbGestionClotureService.GestionCloture.Start
+  commentId: M:GsbGestionClotureService.GestionCloture.Start
+  id: Start
+  parent: GsbGestionClotureService.GestionCloture
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: GestionCloture.Start()
+  fullName: GsbGestionClotureService.GestionCloture.Start()
+  type: Method
+  source:
+    remote:
+      path: GsbGestionClotureService/GestionCloture.cs
+      branch: master
+      repo: https://github.com/rizzok/GsbGestionClotureService.git
+    id: Start
+    path: GestionCloture.cs
+    startLine: 63
+  assemblies:
+  - GsbGestionClotureService
+  namespace: GsbGestionClotureService
+  summary: "\nLance le Timer\n"
+  example: []
+  syntax:
+    content: public void Start()
+    content.vb: Public Sub Start
+  overload: GsbGestionClotureService.GestionCloture.Start*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GsbGestionClotureService.GestionCloture.Stop
+  commentId: M:GsbGestionClotureService.GestionCloture.Stop
+  id: Stop
+  parent: GsbGestionClotureService.GestionCloture
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: GestionCloture.Stop()
+  fullName: GsbGestionClotureService.GestionCloture.Stop()
+  type: Method
+  source:
+    remote:
+      path: GsbGestionClotureService/GestionCloture.cs
+      branch: master
+      repo: https://github.com/rizzok/GsbGestionClotureService.git
+    id: Stop
+    path: GestionCloture.cs
+    startLine: 71
+  assemblies:
+  - GsbGestionClotureService
+  namespace: GsbGestionClotureService
+  summary: "\nArrête le Timer\n"
+  example: []
+  syntax:
+    content: public void Stop()
+    content.vb: Public Sub Stop
+  overload: GsbGestionClotureService.GestionCloture.Stop*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GsbGestionClotureService
+  commentId: N:GsbGestionClotureService
+  name: GsbGestionClotureService
+  nameWithType: GsbGestionClotureService
+  fullName: GsbGestionClotureService
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GsbGestionClotureService.GestionCloture.#ctor*
+  commentId: Overload:GsbGestionClotureService.GestionCloture.#ctor
+  name: GestionCloture
+  nameWithType: GestionCloture.GestionCloture
+  fullName: GsbGestionClotureService.GestionCloture.GestionCloture
+- uid: GsbGestionClotureService.GestionCloture.Start*
+  commentId: Overload:GsbGestionClotureService.GestionCloture.Start
+  name: Start
+  nameWithType: GestionCloture.Start
+  fullName: GsbGestionClotureService.GestionCloture.Start
+- uid: GsbGestionClotureService.GestionCloture.Stop*
+  commentId: Overload:GsbGestionClotureService.GestionCloture.Stop
+  name: Stop
+  nameWithType: GestionCloture.Stop
+  fullName: GsbGestionClotureService.GestionCloture.Stop
