@@ -1,6 +1,6 @@
 # Instructions d'installation du service Windows
 
-Après avoir décompréssé cette archive :  
+Après avoir téléchargé et décompréssé l'archive GsbGestionClotureService.zip :  
 
 - ouvrir un invite de commande en tant qu'administrateur  
 
@@ -11,7 +11,7 @@ cd cheminDuDossier
 
 - lancer l'installation et le démarrage du service avec :  
 ```
-GsbGestionClotureService.exe install start  
+GsbGestionClotureService.exe install start
 ```
 
 --------------------
