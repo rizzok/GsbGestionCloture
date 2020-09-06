@@ -11,7 +11,7 @@ cd cheminDuDossier
 
 - lancer l'installation et le démarrage du service avec :  
 ```
-GsbGestionClotureService.exe install start  
+GsbGestionClotureService.exe install start
 ```
 
 --------------------
